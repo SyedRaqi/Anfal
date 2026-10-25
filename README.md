@@ -16,7 +16,7 @@
 &nbsp;
 <a href="#-loading-dock"><img src="https://img.shields.io/badge/LOADING%20DOCK-17191D?style=for-the-badge&logo=html5&logoColor=white" alt="Loading dock"/></a>
 &nbsp;
-<a href="#-stock-check"><img src="https://img.shields.io/badge/STOCK%20CHECK-8E918F?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Stock check"/></a>
+<a href="#-the-warehouse-floor"><img src="https://img.shields.io/badge/WAREHOUSE%20FLOOR-8E918F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Warehouse floor"/></a>
 
 <br/><br/>
 
@@ -35,7 +35,7 @@
 
 > **Anfal Enterprises is a wholesale distributor for FMCG, connecting trusted brands with retailers, hotels, institutions and caterers.**
 
-This repository is a **dummy website for enterprises**: a single-page, responsive marketing site for that business, built as one `index.html` with no build step. It's a ready-to-adapt template, so the contact details are placeholders waiting for real ones (see the [Stock Check](#-stock-check)).
+This repository is a **dummy website for enterprises**: a single-page, responsive marketing site for that business, built as one `index.html` with no build step.
 
 ## 🧱 The Warehouse Floor
 
@@ -175,25 +175,6 @@ Then open http://localhost:8080.
 | `ChatGPT Image Sep 21, 2026, 05_53_41 PM.png` | The logo-mark image the page uses for its favicon and logo marks |
 | `launch.json` | VS Code debug configuration for Chrome on `localhost:8080` |
 | `LICENSE` | The Unlicense |
-
-## ✅ Stock Check
-
-<div align="center">
-<img src="anfal-stockcheck.svg" width="96%" alt="Stock check clipboard of placeholders and files to fill in before going live" />
-</div>
-
-<br/>
-
-Seven things to tick off before this template represents a real business:
-
-**1. Fill the placeholders in `index.html`.** The contact section and footer still read `[ENTER PHONE NUMBER]`, `[ENTER EMAIL]`, `[ENTER BUSINESS ADDRESS]`, and `[ENTER BUSINESS HOURS]`. The Call now button points to `tel:[ENTER-PHONE-NUMBER]` and the WhatsApp button to `https://wa.me/[ENTER-WHATSAPP-NUMBER]`, so both stay broken until you add real numbers. The map card is a placeholder too.
-
-**2. Fix the image paths.** `index.html` loads the logo-mark PNG and a hero photo from an `assets/` folder:
-
-- `ChatGPT%20Image%20Sep%2021%2C%202026%2C%2005_53_41%20PM.png`
-- `anfal-building.jpg`
-
-But the repo currently keeps the PNG in the top-level folder and has no `assets/` folder. Create `assets/`, move the PNG into it, and add `anfal-building.jpg`. Until then, the logo marks are hidden and the hero shows its gradient fallback.
 
 ## 🧾 A Note on Brand Names
 
